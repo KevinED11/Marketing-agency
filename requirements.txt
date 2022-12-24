@@ -1,0 +1,25 @@
+
+django==3.2.16
+#Permite establecer variables de entorno - guardar información sensible como contraseñas
+django-environ==0.9.0
+#esto lo que hace es que nos permite hacer la comunicación entre el front y el back o nos permite configurar permisos del uso del api
+django-cors-headers==3.13.0
+
+#nos permite la creación de apis para django
+djangorestframework==3.14.0
+
+#nos permite trabajar con imagenes
+pillow==9.3.0
+#para poder guardar las imagenes en AWS
+django-storages==1.13.2
+#para poder crear contenido de mejor manera
+django-ckeditor==6.3.2
+
+#para poder trabajar con la base de datos postgresql
+psycopg==3.1.7
+
+
+
+#.env archivo va guardar todas las contraseñas y claves que no queremos revelar
+
+#git ignore create es un sitio que nos permite crear el git ignore de las tecnologías que usaremos
